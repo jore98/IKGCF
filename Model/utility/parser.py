@@ -41,7 +41,7 @@ def parse_args():
     parser.add_argument('--report', type=int, default=0,
                         help='0: Disable performance report w.r.t. sparsity levels, 1: Show performance report w.r.t. sparsity levels')
 
-    parser.add_argument('--dataset', nargs='?', default='amazon-book',
+    parser.add_argument('--dataset', nargs='?', default='yelp2018',
                         help='Choose a dataset from {last-fm, yelp2018, amazon-book}')
     parser.add_argument('--batch_size', type=int, default=4096,
                         help='Batch size.')
